@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/Logo.ico" type="image/x-icon">
+    </head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <main>
+        <input class="Display" type="text" >
+        <div class="numpad">
+            <button class="Verde" onclick="Limpar()">AC</button>
+            <button class="Laranja" onclick="Inverter()">+/-</button>
+            <button class="Laranja" onclick="Adicionar('/')">/</button>
+            <button class="Laranja" onclick="Adicionar('*')">*</button>
+            <button onclick="Adicionar('7')">7</button>
+            <button onclick="Adicionar('8')">8</button>
+            <button onclick="Adicionar('9')">9</button>
+            <button class="Laranja" onclick="Adicionar('-')">-</button>
+            <button onclick="Adicionar('4')">4</button>
+            <button onclick="Adicionar('5')">5</button>
+            <button onclick="Adicionar('6')">6</button>
+            <button class="Laranja" onclick="Adicionar('+')">+</button>
+            <button onclick="Adicionar('1')">1</button>
+            <button onclick="Adicionar('2')">2</button>
+            <button onclick="Adicionar('3')">3</button>
+            <button class="igual" onclick="Calcular()">=</button>
+            <button class="zero" onclick="Adicionar('0')">0</button>
+            <button onclick="Adicionar('.')">.</button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+<script src="Script.js"></script>
+</html>
