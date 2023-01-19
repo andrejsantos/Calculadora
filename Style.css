@@ -28,6 +28,7 @@ main {
     border: 2px solid black;
     border-radius: 30px;
     padding: 25px;
+    
 }
 
 .numpad {
@@ -71,11 +72,11 @@ button {
     background-color: #4a7ab5;
 }
 
-button:hover {
+.numpad > button:hover {
     opacity: 0.5;
 }
 
-button:active {
+.numpad > button:active {
     opacity: 0.3;
 }
 
@@ -99,4 +100,29 @@ button:active {
     grid-row: 4 / 6;
     border-radius: 20px;
     height: 150px;
+}
+
+footer {
+    position: relative;
+    margin: 10px;
+    text-align: center;
+}
+.Portfolio  {
+    font-size: medium;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    text-decoration: none;
+    color: rgb(4, 179, 39); 
+    background-color: #000000;
+}
+a :hover {
+    transition: 0.3s;
+    border: 5px ridge rgb(4, 179, 39);
+    background-color: #040404;
+    box-shadow: 0px 1px 20px 5px rgb(4, 179, 39)
+    
 }
